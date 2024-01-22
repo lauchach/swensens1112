@@ -1,0 +1,39 @@
+.footerCover {
+  color: rgb(255, 0, 0);
+  // padding: 24px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  margin-top: 1300px;
+}  
+
+.footer {
+  background-color: #e62c2c;
+  color: rgb(255, 0, 0);
+  // padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 10;
+  height: 130px;
+  width: 100%;
+  flex-direction: column;
+}  
+
+.infooter {
+  background-color: #5b1717;
+  color: rgb(255, 0, 0);
+  // padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  height: 60px;
+  width: 100%;
+  margin: auto 0px 0px 0px;
+}

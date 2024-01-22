@@ -1,5 +1,5 @@
 .navbar {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,7 @@
   z-index: 10;
   height: 62px;
   width: 100%;
+  overflow: hidden;
 
   @media (max-width: 820px) {
     background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
@@ -49,8 +50,13 @@
 }
 
 .navbar_logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  // font-size: 1.5rem;
+  // font-weight: bold;
+
+  img {
+    height: 40px;
+    width: 100px;
+  }
 
   @media (max-width: 820px) {
     display: flex;
@@ -60,6 +66,7 @@
 
     img {
       height: 60px;
+      width: 60px;
     }
   }
 }
@@ -143,7 +150,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .imgGame {
@@ -228,12 +235,12 @@
     width: 140px;
     height: 48px;
     padding: 0 24px;
-    background: #f04343;
+    background: #e21c23;
     color: rgb(255, 255, 255);
     border-radius: 24px;
     font-size: 12px;
     font-weight: 1;
-    border: 1px solid #f04343 ;
+    border: 1px solid #e21c23 ;
   }
 
   .singup {
@@ -244,16 +251,16 @@
     height: 48px;
     padding: 0 24px;
     background: #ffffff;
-    color: #f04343;
+    color: #e21c23;
     border-radius: 22px;
     font-size: 12px;
     font-weight: 1;
-    border: 1px solid #f04343;
+    border: 1px solid #e21c23;
   }
 }
 
 .verticalLine {
-  width: 0.1px;
+  width: 1px;
   height: 72px;
-  background-color: rgba(154, 154, 154, 0.249);
+  background-color: rgba(154, 154, 154, 0.145);
 }
